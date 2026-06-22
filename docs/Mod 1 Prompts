@@ -1,0 +1,64 @@
+# Module 1: Structured LLM Exploration – Five-Prompt Protocol - Prompting Claude Haiku 4.5
+
+## Prompt 1: Explanation / Teaching
+
+### Prompt
+
+Explain what a foundation model is to a college administrator with no technical background.
+
+### Response
+
+A foundation model is essentially a large neural network that's been trained on massive amounts of text from the internet—think billions of words—to learn statistical patterns about how language works.
+
+Here's what makes it "foundational": instead of being built from scratch for one specific job (like classifying emails as spam or translating Spanish to English), it's a general-purpose system that's already absorbed broad knowledge about language. Once trained, you can adapt it to many downstream tasks without retraining it from the ground up. That's the efficiency gain.
+
+How it actually works is less mysterious than it sounds. The model doesn't "understand" in the human sense. Instead, it's learned to predict what word comes next based on patterns in its training data. You feed it a prompt, it generates a probability distribution over possible next words, picks one, then repeats. That's why outputs can feel coherent—it's learned correlations between concepts from exposure to enormous text.
+
+The "large" part matters because scale itself seems to confer something like reasoning ability. A model with millions of parameters behaves differently than one with billions. Bigger models are better at tasks they've never explicitly seen before, which is the real trick—they've somehow learned general-purpose skills rather than just memorized specifics.
+
+The catch: because they're trained on internet text, they absorb whatever biases, falsehoods, and patterns exist in that data. They're also not reasoning in the way you might think. They're really sophisticated pattern matching.
+
+### What I Learned
+
+The response reinforced the distinction between a foundation model and a specific AI application. Rather than being designed for a single purpose, foundation models are trained broadly and adapted to many tasks. I also found the explanation of next-token prediction helpful because it clarified why models can generate coherent responses without necessarily understanding concepts in the same way humans do.
+
+### Questions Raised
+
+- To what extent do emergent capabilities reflect actual reasoning versus increasingly sophisticated pattern recognition?
+- How should educators explain the difference between understanding and prediction when discussing AI with students?
+
+## Prompt 2: Brainstorming
+
+### Prompt
+
+Generate five ways AI could support undergraduate research programs.
+
+### Response
+
+1. **Literature synthesis at scale**
+Undergrads typically spend weeks manually reviewing papers, pulling citations, and building mental maps of a field. AI can generate structured summaries across hundreds of papers, identify conceptual connections students might miss, and flag contradictions in existing research. The student still has to critically evaluate and interpret, but the grunt work compresses from weeks to days. This frees time for actual thinking instead of information gathering.
+
+2. **Experimental design feedback**
+Before running an experiment, students often lack access to experienced researchers who can quickly spot methodological issues. An AI system trained on research best practices can review a proposed design, flag potential confounds, suggest control conditions, or point out statistical problems. It won't replace faculty mentorship, but it provides immediate iteration on half-formed ideas when a professor isn't available.
+
+3. **Data analysis scaffolding**
+Undergrads frequently struggle with the technical side of analysis—writing code, choosing appropriate statistical tests, interpreting results. AI can help translate "I want to know if X predicts Y" into executable analysis steps, debug code, or explain why a particular approach works. Again, the student learns by engaging with explanations, not by offloading the thinking.
+
+4. **Interdisciplinary bridge-building**
+A biology student doing computational research, or a humanities student using quantitative methods, often gets stuck in disciplinary gaps. AI can translate concepts across fields, explain how a computer science technique applies to a biology problem, or suggest relevant adjacent work the student wouldn't naturally find. It accelerates the learning curve for unfamiliar territory.
+
+5. **Writing and argument clarification**
+Early research writing is often muddled—the thinking isn't clear yet. AI can identify where logic breaks down, where evidence doesn't support claims, or where the paper loses coherence. This creates faster feedback loops on written thinking, which is especially useful when advisors are overbooked.
+
+The common thread: all of these reduce friction around the support infrastructure so students can spend more time on the actual intellectual work. The risk, of course, is outsourcing the thinking itself if not used deliberately.
+
+### What I Learned
+
+The response emphasized that AI may be most useful as a support tool rather than as a replacement for researchers. The suggested applications focused on reducing barriers that commonly slow undergraduate researchers, including literature reviews, experimental design, data analysis, interdisciplinary learning, and writing. I found the distinction between reducing friction and replacing thinking particularly valuable. The examples suggest that AI can create more opportunities for students to focus on interpretation, judgment, and creativity while spending less time on routine or repetitive tasks.
+
+### Questions Raised
+
+- How can undergraduate research programs encourage students to use AI as a support tool without becoming dependent on it?
+- Which research tasks are most appropriate for AI assistance, and which should remain primarily student-driven?
+- How should mentors evaluate student work when AI may have contributed to literature reviews, writing, or analysis?
+- Could increased access to AI tools improve research opportunities for students with less prior research experience?
