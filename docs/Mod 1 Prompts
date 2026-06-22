@@ -1,64 +1,15 @@
-# Module 1: Structured LLM Exploration – Five-Prompt Protocol - Prompting Claude Haiku 4.5
+# Task 3: Structured LLM Exploration — Five-Prompt Protocol
 
-## Prompt 1: Explanation / Teaching
+**Tool Used:** Claude Haiku 4.5
 
-### Prompt
+| Prompt # | Tool Used        | Output Summary (<40 words)                                                                                                                    | Accuracy (1-5) | Usefulness (1-5) | Key Observation                                                                                                                                                                              |
+| -------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | Claude Haiku 4.5 | Identified Justin Trudeau as Prime Minister based on April 2024 knowledge and clearly stated limitations regarding current information.       | 4              | 5                | What stood out was that it didn't pretend to know the answer. It gave the best answer it could, explained its cutoff date, and told me where to verify the information.                      |
+| 2        | Claude Haiku 4.5 | Summarized foundation models, their adaptability, their emergence from scale, and associated risks in exactly three bullet points.            | 5              | 5                | It pulled out the same major themes the reading guide emphasized and made a dense paragraph much easier to understand without losing the main point.                                         |
+| 3        | Claude Haiku 4.5 | Correctly solved the arithmetic problem, showed intermediate steps, and verified the result using a second method.                            | 5              | 3                | It got the right answer and followed directions, but I would still use a calculator. Being able to do something doesn't necessarily make it the best tool for the job.                       |
+| 4        | Claude Haiku 4.5 | Explained LLMs using a "smart autocomplete" analogy and emphasized prediction rather than understanding.                                      | 5              | 4                | The explanation was accurate, but I'm not convinced it was actually written for a typical 12-year-old. It felt more like an explanation for an adult trying to simplify the topic.           |
+| 5        | Claude Haiku 4.5 | Refused to identify AI developments from the last 14 days due to its knowledge cutoff and explained how to find reliable current information. | 5              | 5                | This was the most interesting result. Instead of making something up, it explained why it couldn't answer and pointed me toward sources that could. That increased my trust in the response. |
 
-Explain what a foundation model is to a college administrator with no technical background.
+## Overall Reflection
 
-### Response
-
-A foundation model is essentially a large neural network that's been trained on massive amounts of text from the internet—think billions of words—to learn statistical patterns about how language works.
-
-Here's what makes it "foundational": instead of being built from scratch for one specific job (like classifying emails as spam or translating Spanish to English), it's a general-purpose system that's already absorbed broad knowledge about language. Once trained, you can adapt it to many downstream tasks without retraining it from the ground up. That's the efficiency gain.
-
-How it actually works is less mysterious than it sounds. The model doesn't "understand" in the human sense. Instead, it's learned to predict what word comes next based on patterns in its training data. You feed it a prompt, it generates a probability distribution over possible next words, picks one, then repeats. That's why outputs can feel coherent—it's learned correlations between concepts from exposure to enormous text.
-
-The "large" part matters because scale itself seems to confer something like reasoning ability. A model with millions of parameters behaves differently than one with billions. Bigger models are better at tasks they've never explicitly seen before, which is the real trick—they've somehow learned general-purpose skills rather than just memorized specifics.
-
-The catch: because they're trained on internet text, they absorb whatever biases, falsehoods, and patterns exist in that data. They're also not reasoning in the way you might think. They're really sophisticated pattern matching.
-
-### What I Learned
-
-The response reinforced the distinction between a foundation model and a specific AI application. Rather than being designed for a single purpose, foundation models are trained broadly and adapted to many tasks. I also found the explanation of next-token prediction helpful because it clarified why models can generate coherent responses without necessarily understanding concepts in the same way humans do.
-
-### Questions Raised
-
-- To what extent do emergent capabilities reflect actual reasoning versus increasingly sophisticated pattern recognition?
-- How should educators explain the difference between understanding and prediction when discussing AI with students?
-
-## Prompt 2: Brainstorming
-
-### Prompt
-
-Generate five ways AI could support undergraduate research programs.
-
-### Response
-
-1. **Literature synthesis at scale**
-Undergrads typically spend weeks manually reviewing papers, pulling citations, and building mental maps of a field. AI can generate structured summaries across hundreds of papers, identify conceptual connections students might miss, and flag contradictions in existing research. The student still has to critically evaluate and interpret, but the grunt work compresses from weeks to days. This frees time for actual thinking instead of information gathering.
-
-2. **Experimental design feedback**
-Before running an experiment, students often lack access to experienced researchers who can quickly spot methodological issues. An AI system trained on research best practices can review a proposed design, flag potential confounds, suggest control conditions, or point out statistical problems. It won't replace faculty mentorship, but it provides immediate iteration on half-formed ideas when a professor isn't available.
-
-3. **Data analysis scaffolding**
-Undergrads frequently struggle with the technical side of analysis—writing code, choosing appropriate statistical tests, interpreting results. AI can help translate "I want to know if X predicts Y" into executable analysis steps, debug code, or explain why a particular approach works. Again, the student learns by engaging with explanations, not by offloading the thinking.
-
-4. **Interdisciplinary bridge-building**
-A biology student doing computational research, or a humanities student using quantitative methods, often gets stuck in disciplinary gaps. AI can translate concepts across fields, explain how a computer science technique applies to a biology problem, or suggest relevant adjacent work the student wouldn't naturally find. It accelerates the learning curve for unfamiliar territory.
-
-5. **Writing and argument clarification**
-Early research writing is often muddled—the thinking isn't clear yet. AI can identify where logic breaks down, where evidence doesn't support claims, or where the paper loses coherence. This creates faster feedback loops on written thinking, which is especially useful when advisors are overbooked.
-
-The common thread: all of these reduce friction around the support infrastructure so students can spend more time on the actual intellectual work. The risk, of course, is outsourcing the thinking itself if not used deliberately.
-
-### What I Learned
-
-The response emphasized that AI may be most useful as a support tool rather than as a replacement for researchers. The suggested applications focused on reducing barriers that commonly slow undergraduate researchers, including literature reviews, experimental design, data analysis, interdisciplinary learning, and writing. I found the distinction between reducing friction and replacing thinking particularly valuable. The examples suggest that AI can create more opportunities for students to focus on interpretation, judgment, and creativity while spending less time on routine or repetitive tasks.
-
-### Questions Raised
-
-- How can undergraduate research programs encourage students to use AI as a support tool without becoming dependent on it?
-- Which research tasks are most appropriate for AI assistance, and which should remain primarily student-driven?
-- How should mentors evaluate student work when AI may have contributed to literature reviews, writing, or analysis?
-- Could increased access to AI tools improve research opportunities for students with less prior research experience?
+The biggest takeaway for me was that the most useful outputs were not necessarily the most impressive ones. The summarization task showed how quickly an LLM can reduce a dense reading into its key ideas, while the current-events task showed the importance of knowing what the model does not know. Across all five prompts, I found myself paying less attention to whether the model sounded confident and more attention to whether it understood the limits of its own knowledge. That seems particularly important when using AI in educational or professional settings.
