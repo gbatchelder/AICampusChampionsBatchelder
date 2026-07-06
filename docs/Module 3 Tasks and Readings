@@ -1,0 +1,142 @@
+Reading 1
+Q1
+They were used for professional writing like emails, reports, press releases, grant writing, and marketing. They were not used for dissertation research, institutional strategy, qualitative coding, or faculty governance. This is representative for about 30% of what I do. My other tasks are content planning and work.
+Q2
+I believe that this indicates that lower level and new employees should be given guidelines on what to use AI with and what not before starting. They should be letting supervisors know what it’s being used for, no punishments or punctuative measures for it’s use. That being said, for better writers it didn’t show as much help. We do not want to lose better writing, so, use early on, but built in development to get them to the level that better writers are at. Our biggest problem is… how do we use AI to make good quality work but not let it become a crutch to getting to where we need to be as writers.
+Q3
+Quality was measured by experienced professionals who evaluated each document blindly for overall quality, writing quality, content quality, and originality. They all had 3 evaluators. This is pretty good, IMO, but it’s still subjective. I don’t recall what metrics the experienced professionals would measure using. If they did not have the same metrics… I want to know the detailed metrics.  
+Q4
+It only measured short writing tasks and did not cover long-term larger projects with multiple rounds of writing, collaborations, and critical judgement.
+Key Terms
+Term	Simple definition
+Randomized Controlled Trial	Participants are randomly assigned to treatment or control so differences can be attributed to AI.
+Treatment Effect	The improvement caused by having AI access.
+Skill Compression	AI helps weaker workers more than stronger workers, reducing performance differences.
+Task Completion Time	Total time required to finish a task.
+Output Quality Assessment	Independent evaluation of the finished work by expert reviewers.
+
+Reading 2
+Q1
+The “jagged frontier” is the boundary between what tasks are better to use AI or Humans. Because tasks that appear equally difficult for humans may receive completely different levels of AI performance. The boundary isn't predictable from task difficulty alone. That’s why it isn’t smooth.
+Q2
+Researchers pretested consulting tasks before the experiment to determine which GPT could reliably complete and which required human reasoning beyond the AI’s capabilities. Practitioners usually cannot run formal experiments, so they must rely on experience, pilot testing, and careful validation before deciding where AI belongs in a workflow. 
+Q3
+Centaur are those where AI is given specific tasks in the style and it doesn’t cross over, while the Cyborg is more fluid and the Human and AI work together continuously. I think for general use a cyborg approach is best, but for trainings and more decision making or research a Centaur approach is best in order to keep a high level of human reasoning involved. 
+Q4
+They talked about over-reliance on AI and how that led people to not look hard or critically at the work. For an email, this is fine, but for research or decision-making, it could be detrimental. This argument makes sense and is what I would have logically assumed before the data. Again, this highlights that we need to treat “high-stakes” tasks as more Centaur than Cyborg. 
+
+Key Terms
+Term	Simple definition
+Jagged Technological Frontier	The uneven boundary where AI helps some tasks but harms others.
+Centaur Collaboration	Human deliberately assigns different parts of the work to AI and to themselves.
+Cyborg Collaboration	Human and AI work together continuously throughout the task.
+Over-reliance	Trusting AI too much without sufficient checking or independent reasoning.
+Inside-Frontier Task	A task AI can reliably improve.
+Outside-Frontier Task	A task where AI performance is unreliable and may reduce human performance.
+
+
+Task 1
+Task name	Frequency	Time/Instance	Cognitive demand (1–5)	AI integration potential (1–5)	Data sensitivity (1–5)	Top candidate?
+Develop meeting agendas using previous meeting notes and project documentation	Weekly	45–90 min	3	5	2	Y
+Draft program emails, announcements, and participant communications	Weekly	30–60 min	2	5	2	Y
+Develop training materials and presentation outlines	Monthly	4-6 hours	4	4	2	N
+Track REM program logistics, schedules, and participant records	Weekly	2–3 hours	3	3	4	N
+Writing, qualitative analysis, and interpretation	Weekly	4–10 hours	5	2	5	N
+						
+
+Candidate 1: Develop meeting agendas using previous meeting notes and project documentation
+I selected this task because much of the work involves retrieving information from previous meeting notes, identifying unfinished action items, and organizing them into a draft agenda. These activities fall largely inside the jagged technological frontier, where AI performs well at summarizing and synthesizing information. I would use AI in a centaur collaboration by having it search and summarize approved Box documentation while I determine priorities, make strategic decisions about agenda items, and finalize the agenda before distribution.
+Candidate 2: Draft program emails, announcements, and participant communications
+This task consists primarily of drafting, editing, and revising professional communications, which closely resembles the writing tasks studied by Noy and Zhang. AI can efficiently generate first drafts, improve clarity, and tailor messages for different audiences, while I remain responsible for ensuring accuracy and institutional appropriateness. This workflow fits a cyborg collaboration because I would work iteratively with AI throughout the drafting and revision process rather than simply delegating the entire task.
+Task 2
+Develop the agenda for the Biweekly (during summer program weekly) New Frontiers of Sound REM meeting by reviewing previous meeting notes stored in Box, identifying unresolved action items, summarizing ongoing projects, and drafting agenda items for discussion. The intended audience is the New Frontiers of Sound Education Team.
+Tool(s) Used
+Tool(s):
+•	ChatGPT 
+•	Box meeting notes and transcripts (via ChatGPT connector/search) 
+Data Sensitivity:
+Medium
+(No FERPA, HIPAA, or protected student records. Internal meeting documentation only.)
+Time
+Normal time:
+30-45 minutes
+Actual AI-assisted time:
+15 minutes
+Prompt	AI Output (summary)	Edits Made (What & Why)
+Review the meeting notes from the Education Team Box folder. Summarize unresolved action items and recurring discussion topics from the last three meetings.	Produced a list of unfinished action items grouped by project.	Removed completed items, corrected one misunderstood action item, and added context known from informal conversations not recorded in the notes.
+Using those action items, draft an agenda for next week's Education Team meeting. Organize items into Updates, Discussion, Decisions Needed, and Action Items.	Created a structured agenda with logical sections and estimated discussion topics.	Reordered agenda to match our team's meeting style, added time estimates, and inserted an item about upcoming REM deadlines that AI could not infer.
+Rewrite the agenda in a concise, professional format appropriate for distribution through Microsoft Teams.	Reformatted agenda into a clean meeting agenda with bullet points.	Changed wording and put into short bullets, almost too short
+Review the agenda for clarity and identify any missing information or assumptions.	Suggested several clarifications and highlighted places needing dates or responsible individuals.	Accepted most suggestions, added meeting logistics and corrected project terminology specific to NewFoS.
+
+Reflection:
+The AI produced a well-organized first draft, but it had too much information and things that it didn’t know where completed or not. It focused on things that our meeting wouldn’t care about but it reduced the time spent finding information and it looked at the same meeting from last year to see what I might be missing this year. It did save time looking through two years’ worth of notes and minutes to build a semi-coherent meeting agenda; my own fixes actually made them worse at times.
+
+Disclosure:
+I would not disclose AI for meeting agendas. This is just drafting and not publication materials. It is already known by my supervisor that I used AI on them and on the meeting minutes themselves, so it should not be a problem. I am not aware of UA policy that requires it for administrative documents.
+
+Task 3
+Scenario	Appropriate? (Y/N/Depends)	Disclose? (Y/N)	To whom	Policy cited	1-sentence reasoning
+1. Personalized Student Feedback	Depends	Yes	Students (and department if expected by local practice)	University of Arizona Responsible AI Guidelines & Principles
+I do not think that I would, but I think it might be acceptable as long as the professor has reviewed it and changed the feedback. Feedback is a core part of teaching and it would be reasonable for students to expect transparency about AI in generating comments.
+2. Department Newsletter	Yes	No (or disclose internally to supervisor if department practice requires)	Supervisor	University of Arizona AI Tools & Data Use Guide
+The newsletter contains only public information and functions as institutional communication, so AI acts primarily as a drafting tool rather than replacing professional judgment.
+3. Promotion & Tenure Reference Letter	Depends	Yes	Department chair and/or promotion committee	University of Arizona Responsible AI Guidelines & Principles; University of Arizona Generative AI in Research Guidance
+A reference letter represents the author's personal professional judgment, so substantive AI assistance is a material fact that decision-makers could reasonably consider relevant. 
+4. Student Disability Accommodation Letters	No	Yes (and the issue should be reported internally)	Supervisor, IT/security office, and disability services leadership	FERPA; University of Arizona AI Tools & Data Use Guide
+Entering protected disability information into an unapproved AI system presents a data-governance and FERPA concern, and the absence of an institutional approval does not imply permission.
+
+BOX 1 — Task entry point: What triggers this workflow? What is the desired output?
+Trigger: Preparation for the weekly New Frontiers of Sound Education Team meeting.
+Desired Output: A professional meeting agenda that summarizes outstanding action items, identifies discussion topics, and organizes the meeting into a logical sequence.
+BOX 2 — Data inputs: What information goes in? Data sensitivity classification (Low/Med/High):
+Inputs:
+•	Previous meeting notes and Zoom AI summaries stored in Box 
+•	Action item lists 
+•	Project updates 
+•	Calendar deadlines 
+•	Standing agenda items
+Data Sensitivity: Medium
+(Internal project documentation only; no FERPA-, HIPAA-, or other protected data.)
+BOX 3 — AI tool selected + rationale: Why this tool for this task? Is it institutionally approved?
+Tool: ChatGPT connected to institutional Box documentation.
+Why: ChatGPT efficiently searches, summarizes, and synthesizes information across multiple meeting notes, reducing the time required to locate previous decisions and unfinished action items. But really, because there is a built in MCP enabled secure access integration between ChatGPT and Box; whereas the Claude integration does not have MCP secure access.
+Institutionally Approved: Yes, provided it is used only with institutionally approved Box integration and appropriate institutional data governance requirements.
+BOX 4 — Prompt strategy: What prompting approach (zero-shot, few-shot, CoT)? Role specification?
+Approach:
+•	Role prompting 
+•	Few-shot prompting 
+•	Iterative refinement (cyborg interaction) 
+Example role:
+"You are an administrative project coordinator helping prepare a meeting agenda from previous meeting notes."
+Typical prompts:
+•	Summarize outstanding action items. 
+•	Identify recurring discussion topics. 
+•	Draft an agenda grouped by Updates, Discussion, Decisions Needed, and Action Items. 
+•	Suggest missing follow-up items. 
+BOX 5 — AI output review checkpoint: What specifically do you check? For accuracy? Tone? Bias? Completeness?
+Before using the agenda I check:
+•	Every action item matches the original meeting notes. 
+•	Completed items have been removed (AI doesn’t know what happens between meetings that isn’t documented). 
+•	Deadlines are accurate. 
+•	Meeting priorities reflect current organizational needs. 
+•	Tone matches our team's communication style. 
+•	No confidential or inappropriate information is included.
+BOX 6 — Human verification step (REQUIRED): What human action confirms quality before the output is used?
+I compare every AI-generated agenda item against the original Box meeting notes and current project status to verify that:
+•	no action items were invented, 
+•	no important topics were omitted, 
+•	priorities accurately reflect current team needs. 
+Only after this verification do I approve the agenda for distribution.
+BOX 7 — Output + disclosure decision: Format, destination, and disclosure action (if any):
+Output Format:
+•	Meeting agenda in Box Notes
+•	Email attachment (in Calendar invite) 
+•	Shared Box document
+Destination:
+New Frontiers of Sound Education Team.
+Disclosure Decision:
+No external disclosure is necessary because AI serves as an internal drafting and organizational tool while I verify all content and remain fully responsible for the final agenda. If institutional policy changes to require disclosure of substantive AI assistance, I would follow that policy.
+
+Collaboration Style
+Primary Style: Centaur
+This workflow is a centaur model because responsibilities are intentionally divided. AI performs tasks inside the current technological frontier (retrieving information, summarizing notes, and drafting the agenda structure). I perform the frontier-outside tasks of verifying accuracy, setting priorities, incorporating undocumented context, and making final decisions before distribution.
